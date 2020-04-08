@@ -132,9 +132,9 @@ Select your color:
 
 
 
-    var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
+    //var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
     //var connection = new signalR.HubConnectionBuilder().withUrl("http://students.cs.weber.edu/bramil/chathub").build(); // Server setting var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build(); //local setting
-    //var connection = new signalR.HubConnectionBuilder().withUrl("https://signalrchat220200405114039.azurewebsites.net/chathub").build(); // Server setting var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build(); //local setting
+    var connection = new signalR.HubConnectionBuilder().withUrl("https://signalrchat220200405114039.azurewebsites.net/chathub").build(); // Server setting var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build(); //local setting
     
 
     //Disable send button until connection is established
